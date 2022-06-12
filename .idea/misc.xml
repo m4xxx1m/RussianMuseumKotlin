@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/max/AndroidStudioProjects/Example/app/src/main/res/drawable/age_14_gradient.xml" value="0.1785" />
+        <entry key="..\:/Users/max/AndroidStudioProjects/Example/app/src/main/res/drawable/age_14_gradient_2.xml" value="0.1785" />
+        <entry key="..\:/Users/max/AndroidStudioProjects/Example/app/src/main/res/drawable/age_6_8_gradient_2.xml" value="0.1785" />
+        <entry key="..\:/Users/max/AndroidStudioProjects/Example/app/src/main/res/layout-land/guess_genre_option.xml" value="0.14858906525573193" />
+        <entry key="..\:/Users/max/AndroidStudioProjects/Example/app/src/main/res/layout/activity_guess_genre.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/max/AndroidStudioProjects/Example/app/src/main/res/layout/activity_main.xml" value="0.1381340579710145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

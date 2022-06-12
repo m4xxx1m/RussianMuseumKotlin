@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="ru.raptors.russian_museum.fragments.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_games"
+        android:name="ru.raptors.russian_museum.fragments.games.GamesFragment"
+        android:label="@string/title_games"
+        tools:layout="@layout/fragment_games" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_findObjectActivity"
+            app:destination="@id/findObjectActivity" />
+        <action
+            android:id="@+id/action_navigation_games_to_puzzlesActivity"
+            app:destination="@id/puzzlesActivity" />
+        <action
+            android:id="@+id/action_navigation_games_to_guessGenreChooseActivity"
+            app:destination="@id/guessGenreChooseActivity" />
+        <action
+            android:id="@+id/action_navigation_games_to_testSelectionActivity"
+            app:destination="@id/testSelectionActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_ar"
+        android:name="ru.raptors.russian_museum.fragments.ar.ARFragment"
+        android:label="@string/title_ar"
+        tools:layout="@layout/fragment_ar" />
+
+    <activity
+        android:id="@+id/findObjectActivity"
+        android:name="ru.raptors.russian_museum.find_object.activities.FindObjectActivity"
+        android:label="FindObjectActivity" />
+    <activity
+        android:id="@+id/puzzlesActivity"
+        android:name="ru.raptors.russian_museum.puzzles.activities.PuzzlesActivity"
+        android:label="activity_puzzles"
+        tools:layout="@layout/activity_puzzles" />
+    <activity
+        android:id="@+id/guessGenreChooseActivity"
+        android:name="ru.raptors.russian_museum.guess_genre.activity.GuessGenreChooseActivity"
+        android:label="activity_choose_guess_genre"
+        tools:layout="@layout/activity_choose_guess_genre"/>
+    <activity
+        android:id="@+id/testSelectionActivity"
+        android:name="ru.raptors.russian_museum.tests.activities.TestSelectionActivity"
+        android:label="activity_test_selection"
+        tools:layout="@layout/activity_test_selection" />
+
+</navigation>
